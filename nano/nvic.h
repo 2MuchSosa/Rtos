@@ -1,5 +1,5 @@
 // NVIC Library
-// Jason Losh
+//Aisosa Okunbor
 
 //-----------------------------------------------------------------------------
 // Hardware Target
@@ -29,3 +29,4 @@ void disableNvicInterrupt(uint8_t vectorNumber);
 void setNvicInterruptPriority(uint8_t vectorNumber, uint8_t priority);
 
 #endif
+
