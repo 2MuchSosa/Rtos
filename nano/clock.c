@@ -1,5 +1,5 @@
 // Clock Library
-// Jason Losh
+//Aisosa Okunbor
 
 //-----------------------------------------------------------------------------
 // Hardware Target
