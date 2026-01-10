@@ -11,7 +11,7 @@ Before the final build, I completed two smaller projects:
 ### Nano Project
 The nano project focused on verifying the shell and basic command handling:
 
-* Ensure the shell prints correctly to the terminal.
+* Ensures the shell prints correctly to the terminal.
 * Confirms commands respond appropriately to user input.
 
 ### Mini Project
