@@ -53,7 +53,7 @@ setprio <proc_name> <prio> - Set thread priority (0–7, where 0 is highest)
 Scheduling and Tasks:
 * Designed a priority and round-robin scheduler
 * Created tasks and allocated memory
-* Deleted tasks safely
+* Killed tasks safely
 * Learned and implemented task states while monitoring their transitions
 
 Inter-task Communication:
