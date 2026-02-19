@@ -189,7 +189,14 @@ uint8_t rtosScheduler(void)
         for(prio = 0; prio < NUM_PRIORITIES; prio++)
         {
             // Start searching after the last task run at this priority
-            uint8_t searchStart = (lastTaskAtPrio[prio] == 0xFF) ? 0 : (lastTaskAtPrio[prio] + 1) % MAX_TASKS;
+            uint8_t searchStart;
+            if(lastTaskAtPrio[prio] == 0xFF)
+            {
+                searchStart = 0;
+            }else
+            {
+                searchStart = (lastTaskAtPrio[prio] + 1) % MAX_TASKS;
+            }
 
             // Check all tasks at this priority level (round-robin within priority)
             uint8_t i;
@@ -1183,4 +1190,5 @@ void svCallIsr(void)
     }
 
 }
+
 
